@@ -1,3 +1,5 @@
+// https://palindrome-checker.freecodecamp.rocks/
+
 const textInput = document.getElementById("text-input");
 const checkBtn = document.getElementById("check-btn");
 const result = document.getElementById("result");
@@ -9,6 +11,8 @@ const inputCheckHandler = (event) => {
   //   if (textInput.value.length == 1) {
   //     result.innerText = `${textInput.value} is a palindrome`;
   //   }
+
+  /*
   else if (textInput.value === "A") {
     result.innerText = "A is a palindrome";
   } else if (textInput.value === "eye") {
@@ -36,6 +40,7 @@ const inputCheckHandler = (event) => {
   } else if (textInput.value === "five|_/|four") {
     result.innerText = "five|_/|four is not a palindrome";
   }
+  */
 };
 
 checkBtn.addEventListener("click", inputCheckHandler);

@@ -1,7 +1,69 @@
 * {
-  --foreground-color: ;
+  --foreground-color: #;
 }
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: #1b1b32;
+  color: whitesmoke;
+  font-size: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#div-input {
+  background: whitesmoke;
+  color: #1b1b32;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+#text-label {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+#text-input {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #1b1b32;
+  background: transparent;
+  text-align: center;
+}
+
+#check-btn {
+  padding: 5px 25px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: purple;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+#result {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#about {
+  width: 27vw;
+  margin-top: 30px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: darkgreen;
+  text-align: center;
+}
+
+#about p::before {
+  content: "💡";
 }
