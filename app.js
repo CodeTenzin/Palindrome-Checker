@@ -8,6 +8,9 @@ const inputCheckHandler = (event) => {
   if (textInput.value === "") {
     alert("Please input a value");
   }
+
+  const srt = textInput.value.toLowerCase;
+
   //   if (textInput.value.length == 1) {
   //     result.innerText = `${textInput.value} is a palindrome`;
   //   }
